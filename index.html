@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta property="og:title" content="WE'RE HAVING A BABY!!!" />
+<meta property="og:type" content="website" />       
+<meta property="og:url" content="http://www.codyandrene.com" />
+<meta property="og:description" content="We are proud to announce that we are expecting a baby this December!" />
+<title>We're having a baby!</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18959602-6', 'codyandrene.com');
+  ga('send', 'pageview');
+
+</script>
+<!-- <script src='keyframes.min.js'></script> -->
+<style>
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+* { padding: 0; margin: 0; }
+
+body, html
+{
+	width: 100%;
+	height: 100%;
+	font-family: "Droid Sans", arial, verdana, sans-serif;
+	font-weight: 700;
+	color: #ff6;
+	background-color: #000;
+	overflow: hidden;
+}
+
+p#start
+{
+	position: relative;
+	width: 16em;
+	font-size: 200%;
+	font-weight: 400;
+	margin: 20% auto;
+	color: #4ee;
+	opacity: 0;
+	z-index: 1;
+	-webkit-animation: intro 6s ease-in-out;
+	-moz-animation: intro 6s ease-in-out;
+	-ms-animation: intro 6s ease-in-out;
+	-o-animation: intro 6s ease-in-out;
+	animation: intro 6s ease-in-out;
+}
+
+@-webkit-keyframes intro {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+@-moz-keyframes intro {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+@-ms-keyframes intro {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+@-o-keyframes intro {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+@keyframes intro {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	90% { opacity: 1; }
+	100% { opacity: 0; }
+}
+
+h1
+{
+	position: absolute;
+	width: 4.0em;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 25%;
+	font-size: 10em;
+	text-align: center;
+	line-height: 0.8em;
+	letter-spacing: -0.05em;
+	color: #000;
+	text-shadow: -2px -2px 0 #ff6, 2px -2px 0 #ff6, -2px 2px 0 #ff6, 2px 2px 0 #ff6;
+	z-index: 1;
+	-webkit-animation: logo 6s ease-out 1s forwards;
+	-moz-animation: logo 6s ease-out 1s forwards;
+	-ms-animation: logo 6s ease-out 1s forwards;
+	-o-animation: logo 6s ease-out 1s forwards;
+	animation: logo 6s ease-out 1s forwards;
+}
+
+/*h1 sub
+{
+	display: block;
+	font-size: 0.3em;
+	letter-spacing: 0;
+	line-height: 0.8em;
+}*/
+
+@-webkit-keyframes logo {
+	0% { -webkit-transform: scale(1); opacity: 0; }
+	50% { opacity: 1; }
+	100% { -webkit-transform: scale(0.1); opacity: 0;}
+}
+
+@-moz-keyframes logo {
+	0% { transform: scale(1); opacity: 0; }
+	50% { transform: scale(0.5); opacity: 1; }
+	100% { transform: scale(0.1); opacity: 0; }
+}
+
+@-ms-keyframes logo {
+	0% { -ms-transform: scale(1); opacity: 0; }
+	50% { opacity: 1; }
+	100% { -ms-transform: scale(0.1); opacity: 0;}
+}
+
+@-o-keyframes logo {
+	0% { -o-transform: scale(1); opacity: 0; }
+	50% { opacity: 1; }
+	100% { -o-transform: scale(0.1); opacity: 0;}
+}
+
+@keyframes logo {
+	0% { transform: scale(1); opacity: 0; }
+	50% { opacity: 1; }
+	100% { transform: scale(0.1); opacity: 0;}
+}
+
+/* the interesting 3D scrolling stuff */
+#titles
+{
+	position: absolute;
+	width: 18em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -9em;
+	font-size: 350%;
+	text-align: justify;
+	overflow: hidden;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transform: perspective(300px) rotateX(25deg);
+	-moz-transform: perspective(300px) rotateX(25deg);
+	-ms-transform: perspective(300px) rotateX(25deg);
+	-o-transform: perspective(300px) rotateX(25deg);
+	transform: perspective(300px) rotateX(25deg);
+}
+
+#titles:after
+{
+	position: absolute;
+	content: ' ';
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	background-image: -o-linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	pointer-events: none;
+}
+
+#titles p
+{
+	text-align: justify;
+	margin: 0.8em 0;
+	letter-spacing:4px;
+	line-height:120%;
+}
+
+#titles p.center
+{
+	text-align: center;
+}
+
+#titles a
+{
+	color: #ff6;
+	text-decoration: underline;
+}
+
+#titlecontent
+{
+	position: absolute;
+	top: 100%;
+	-webkit-animation: scroll 150s linear 15s infinite;
+	-moz-animation: scroll 150s linear 15s infinite;
+	-ms-animation: scroll 150s linear 15s infinite;
+	-o-animation: scroll 150s linear 15s infinite;
+	animation: scroll 150s linear 15s infinite;
+}
+
+/* animation */
+@-webkit-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-moz-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-ms-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@-o-keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
+</style>
+<script>
+$(document).ready(function() {
+
+	$('#logo').hide();
+
+	// place this within dom ready function
+	function showpanel() {     
+		$("#logo").show();
+	}
+
+	// use setTimeout() to execute
+	setTimeout(showpanel, 8000);
+
+});
+</script>
+</head>
+<body>
+
+	<audio autoplay="true">
+        <source src="starwars.ogg" type="audio/ogg" />
+        <source src="starwars.mp3" type="audio/mpeg" />
+    </audio>
+
+<p id="start">Not so long ago in a place not very far away&hellip;</p>
+
+<h1 id="logo">WE'RE HAVING A BABY</h1>
+
+<div id="titles"><div id="titlecontent">
+
+	<p class="center">EPISODE I<br />A NEW LIFE</p><br />
+	
+	<p>It is a time of great excitement as Cody and Rene embark on a new journey of parenthood. A new member is being added to the Stamp’s family December 2014!</p>
+	
+	<p>After concealing the news for several weeks, these two could think of no more appropriate way to make such an important announcement.</p>
+	
+	<p>Only mere months away from beginning their new role of PARENTS, these two kids begin to unravel the mysteries of raising a child...</p>
+
+</div></div>
+
+</body>
+</html>
